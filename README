@@ -1,0 +1,16 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3204
+
+with default key binding enabled, move the cursor over a word, for example "map" and press <leader>ht 
+this will put the following line in the status line: 
+
+
+1/1: map :: (a->b) -> [a] -> [b]
+(1/1 - first line of, well, a single line) 
+
+pressing <leader>hh will show the next line, if any.
+
+<leader>hH show the previous one, the list is cyclic 
+
+there are also <leader>hi for info, <leader>hb for browse, <leader>hk for kind.
+
+see code for more details 
